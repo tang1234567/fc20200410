@@ -1,0 +1,57 @@
+.fcbox{
+    position: fixed;
+    display: inline-flex;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10rem;
+    /*border: solid 1px #000000;*/
+    background-color: #eaeaea;
+}
+.fcbox .icon{
+    width: 20%;
+    justify-content: center; /* 水平居中 */
+    align-items: center;     /* 垂直居中 */
+    display: flex;
+}
+.fcbox .msg{
+    padding-top: 2rem;
+    width: 50%;
+}
+
+.fcbox .msg .title{
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.fcbox .msg .subject{
+    padding-top: 0.3rem;
+    font-size: 1.8rem;
+    color: #a3a3a3
+}
+.fcbox .down{
+    font-size: 2rem;
+    width: 30%;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+}
+
+.fcbox .down .downapp{
+    background-color: #3399ff;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    padding: 0.5rem 2.5rem;
+    border-radius: 2rem;
+    color: #ffff;
+}
+
+.fcbox .down .close{
+    position: absolute;
+    right: 0;
+    width: 4%;
+    text-align: center;
+    top: 0;
+    background-color: #cfcece;
+
+}
